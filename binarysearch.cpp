@@ -31,16 +31,16 @@ int binarysearch(int arr[],int n,int key)
 
 int main()
 {
-    int n;
-    cin>>n;
-    int arr[n];
-    for (int  i = 0; i < n; i++)
+    int r;
+    cin>>r;
+    int arr[r];
+    for (int  i = 0; i < r; i++)
     {
         cin>>arr[i];
     }
     int key;
     cin>>key;
 
-    cout<<binarysearch(arr,n,key)<<endl;
+    cout<<binarysearch(arr,r,key)<<endl;
     
 }
